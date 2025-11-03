@@ -48,16 +48,23 @@ img {
 
 /*start editing for exercise below */
 .grid {
-  "mudkip mudkip"
+"mudkip mudkip"
 "piplup piplup"
 "chimchar cyndaquil"
 "torchic torchic";
 grid-template-columns: 200px 300px;
 grid-template-rows: 150px 200px 300px 200px;
+justify-items: center;
+width: 600px;
+justify-content: end;
+align-items: stretch;
+height: 1000px;
+align-content: center;
 }
 
 .mudkip  {
   grid-area: mudkip;
+  justify-self: end;
 }
 
 .piplup {
